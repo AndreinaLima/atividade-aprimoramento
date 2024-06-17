@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  text-align: center;
+  background: linear-gradient(45deg, #91DDCF, #F7F9F2, #E8C5E5, #F19ED2);
+}
+
+#titulo-principal {
+  font-weight: 600;
+  font-size: 40px;
+  padding: 20px;
+  margin: 10px 0;
+  color: black;
+}
+
+.texto-introducao {
+  font-size: 16px;
+  padding: 10px;
+  margin: 5px auto;
+  color: #F7F9F2;
+  background-color: gray;
+  width: 30vw;
+  border-radius: 12px;
+}
+
+.caixa {
+  width: 40vw;
+  background-color: #c79ac3;
+  margin: 10px auto;
+  border-radius: 12px;
+}
+
+.caixa p {
+ color: purple;
+ font-weight: 600;
+ font-size: 20px;
+}
+
+figure {
+  border-radius: 16px;
+  margin: 30px auto;
+  padding: 20px 0;
+  width: 50%;
+  background-color: #E8C5E5;
+}
+
+figure img {
+  border: 3px solid #91DDCF;
+  border-radius: 8px;
+  height: 250px;
+  box-shadow: 10px 10px 5px 0px grey;
+}
+
+figcaption {
+  font-size: 14px;
+  color: #91DDCF;
+  background-color: black;
+  width: 200px;
+  margin: 5px auto;
+  padding: 5px 0;
+}
+
+#secao {
+  width: 100vw;
+  margin: 100px 0;
+}
+
+.titulo {
+  padding: 30px 0;
+  margin: 10px;
+  text-shadow: 2px 2px 1px gray;
+  font-size: 50px;
+}
+
+.paragrafo {
+  font-weight: 600;
+  background-color: #c79ac3;
+  width: 30vw;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 12px;
+  box-shadow: 5px 5px 5px 2px grey;
+}
+
+
+.button1 {
+  background-color: #F19ED2;
+  border: none;
+  color: white;
+  margin: 20px;
+  padding: 15px 32px;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer; 
+}
+.button1:hover {
+  background-color: #c79ac3;
+}
+
+.button2 {
+  background-color: #c79ac3;
+  border: 2px solid ghostwhite;
+  color: white;
+  margin: 20px;
+  padding: 15px;
+  border-radius: 16px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.button2:hover {
+  color: #91DDCF;
+}
+
+.button3 {
+  background-color: #c79ac3;
+  border: 3px double pink;
+  color: black;
+  margin: 20px;
+  padding: 15px 35px;
+  border-radius: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button3:hover {
+  background-color: purple;
+}
+
+footer {
+  padding: 50px;
+  margin: 20px 0;
+  background: linear-gradient(45deg, #91DDCF, #F7F9F2, #E8C5E5, #F19ED2);
+}
